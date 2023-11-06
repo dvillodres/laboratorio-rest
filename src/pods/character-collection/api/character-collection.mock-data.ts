@@ -3,6 +3,7 @@ import { CharacterEntityApi } from './character-collection.api-model';
 export const mockCharacterCollection: CharacterEntityApi[] = [
   {
     "id": 1,
+    "bestSentences": "",
     "name": "Rick Sanchez",
     "status": "Alive",
     "species": "Human",
@@ -75,6 +76,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 2,
+    "bestSentences": "",
     "name": "Morty Smith",
     "status": "Alive",
     "species": "Human",
@@ -147,6 +149,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 3,
+    "bestSentences": "",
     "name": "Summer Smith",
     "status": "Alive",
     "species": "Human",
@@ -210,6 +213,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 4,
+    "bestSentences": "",
     "name": "Beth Smith",
     "status": "Alive",
     "species": "Human",
@@ -273,6 +277,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 5,
+    "bestSentences": "",
     "name": "Jerry Smith",
     "status": "Alive",
     "species": "Human",
@@ -333,6 +338,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 6,
+    "bestSentences": "",
     "name": "Abadango Cluster Princess",
     "status": "Alive",
     "species": "Alien",
@@ -355,6 +361,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 7,
+    "bestSentences": "",
     "name": "Abradolf Lincler",
     "status": "unknown",
     "species": "Human",
@@ -378,6 +385,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 8,
+    "bestSentences": "",
     "name": "Adjudicator Rick",
     "status": "Dead",
     "species": "Human",
@@ -400,6 +408,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 9,
+    "bestSentences": "",
     "name": "Agency Director",
     "status": "Dead",
     "species": "Human",
@@ -422,6 +431,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 10,
+    "bestSentences": "",
     "name": "Alan Rails",
     "status": "Dead",
     "species": "Human",
@@ -444,6 +454,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 11,
+    "bestSentences": "",
     "name": "Albert Einstein",
     "status": "Dead",
     "species": "Human",
@@ -466,6 +477,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 12,
+    "bestSentences": "",
     "name": "Alexander",
     "status": "Dead",
     "species": "Human",
@@ -488,6 +500,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 13,
+    "bestSentences": "",
     "name": "Alien Googah",
     "status": "unknown",
     "species": "Alien",
@@ -510,6 +523,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 14,
+    "bestSentences": "",
     "name": "Alien Morty",
     "status": "unknown",
     "species": "Alien",
@@ -532,6 +546,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 15,
+    "bestSentences": "",
     "name": "Alien Rick",
     "status": "unknown",
     "species": "Alien",
@@ -554,6 +569,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 16,
+    "bestSentences": "",
     "name": "Amish Cyborg",
     "status": "Dead",
     "species": "Alien",
@@ -576,6 +592,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 17,
+    "bestSentences": "",
     "name": "Annie",
     "status": "Alive",
     "species": "Human",
@@ -598,6 +615,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 18,
+    "bestSentences": "",
     "name": "Antenna Morty",
     "status": "Alive",
     "species": "Human",
@@ -621,6 +639,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 19,
+    "bestSentences": "",
     "name": "Antenna Rick",
     "status": "unknown",
     "species": "Human",
@@ -643,6 +662,7 @@ export const mockCharacterCollection: CharacterEntityApi[] = [
   },
   {
     "id": 20,
+    "bestSentences": "",
     "name": "Ants in my Eyes Johnson",
     "status": "unknown",
     "species": "Human",

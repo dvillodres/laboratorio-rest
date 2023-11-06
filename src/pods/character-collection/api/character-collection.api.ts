@@ -5,12 +5,12 @@ let characterCollection = [...mockCharacterCollection];
 
 export const getCharacterCollection = async (): Promise<CharacterEntityApi[]> => {
   try {
-    const response = await fetch('https://rickandmortyapi.com/api/character');
+    const response = await fetch('http://localhost:3000/characters');
     if (!response.ok) {
       throw new Error('No se pudo obtener la colección de personajes');
     }
     const data = await response.json();
-    const characterCollection: CharacterEntityApi[] = data.results;
+    const characterCollection: CharacterEntityApi[] = data;
     return characterCollection;
   } catch (error) {
     console.error('Error al obtener la colección de personajes', error);

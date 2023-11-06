@@ -17,7 +17,7 @@ export const CharacterContainer: React.FunctionComponent = () => {
     if (success) {
       navigate(-1);
     } else {
-      alert('Error on save hotel');
+      alert('Error on save character');
     }
   };
 

@@ -1,10 +1,8 @@
 import { Character } from './character.api-model';
-import { Lookup } from 'common/models';
-import { mockCharacterCollection } from './character.mock-data';
 
 export const getCharacter = async (id: string): Promise<Character> => {
   try {
-    const response = await fetch(`https://rickandmortyapi.com/api/character/${id}`);
+    const response = await fetch(`http://localhost:3000/characters/${id}`);
 
     if (!response.ok) {
       throw new Error(`Error de red: ${response.status} ${response.statusText}`);
@@ -18,5 +16,24 @@ export const getCharacter = async (id: string): Promise<Character> => {
 };
 
 export const saveCharacter = async (character: Character): Promise<boolean> => {
-  return true;
+  const requestOptions = {
+    method: 'PATCH',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(character)
+  };
+  console.log(`http://localhost:3000/characters/${character.id}`)
+  try {
+    const response = await fetch(`http://localhost:3000/characters/${character.id}`, requestOptions);
+
+    if (response.ok) {
+      return true;
+    } else {
+      throw new Error('Error');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    return false;
+  }
 };

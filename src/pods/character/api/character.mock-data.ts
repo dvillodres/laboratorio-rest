@@ -3,6 +3,7 @@ import { Character } from './character.api-model';
 export const mockCharacterCollection: Character[] = [
   {
     "id": 1,
+    "bestSentences": "",
     "name": "Rick Sanchez",
     "status": "Alive",
     "species": "Human",
@@ -75,6 +76,7 @@ export const mockCharacterCollection: Character[] = [
   },
   {
     "id": 2,
+    "bestSentences": "",
     "name": "Morty Smith",
     "status": "Alive",
     "species": "Human",
@@ -147,6 +149,7 @@ export const mockCharacterCollection: Character[] = [
   },
   {
     "id": 3,
+    "bestSentences": "",
     "name": "Summer Smith",
     "status": "Alive",
     "species": "Human",
@@ -210,6 +213,7 @@ export const mockCharacterCollection: Character[] = [
   },
   {
     "id": 4,
+    "bestSentences": "",
     "name": "Beth Smith",
     "status": "Alive",
     "species": "Human",
@@ -273,6 +277,7 @@ export const mockCharacterCollection: Character[] = [
   },
   {
     "id": 5,
+    "bestSentences": "",
     "name": "Jerry Smith",
     "status": "Alive",
     "species": "Human",
