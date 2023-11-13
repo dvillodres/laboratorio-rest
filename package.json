@@ -12,7 +12,8 @@
     "type-check": "tsc --noEmit",
     "type-check:watch": "npm run type-check -- --watch",
     "clean": "rimraf dist",
-    "postinstall": "cd ./server && npm install"
+    "postinstall": "cd ./server && npm install",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Lemoncode",
   "license": "MIT",
@@ -27,6 +28,7 @@
     "@mui/material": "^5.14.10",
     "axios": "^1.5.0",
     "formik": "^2.4.5",
+    "gh-pages": "^6.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.16.0",
